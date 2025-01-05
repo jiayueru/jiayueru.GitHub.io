@@ -6,8 +6,7 @@ main:
     page: https://lift3d-web.github.io/
     code: https://github.com/PKU-HMI-Lab/LIFT3D.git
     image: ./assets/img/lift3d_teaser.png
-    github: "https://github.com/PKU-HMI-Lab/LIFT3D.git"
-
+    github: "https://github.com/PKU-HMI-Lab/LIFT3D"
 
   - title: "DesignEdit: Unify Spatial-Aware Image Editing via Training-free Inpainting with a Multi-Layered Latent Diffusion Framework"
     authors: <strong>Yueru Jia</strong>, Aosong Cheng, Yuhui Yuan, Chuke Wang, Ji Li, Huizhu Jia, Shanghang Zhang

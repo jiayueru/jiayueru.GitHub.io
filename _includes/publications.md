@@ -17,6 +17,11 @@
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
       <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
+      {% if link.github %}
+        <a href="{{ link.github }}/stargazers" target="_blank">
+          <img src="https://img.shields.io/github/stars/{{ link.github | split: 'https://github.com/' | last | split: '/' | first }}/{{ link.github | split: 'https://github.com/' | last | split: '/' | last }}.svg" alt="GitHub stars">
+        </a>
+      {% endif %}
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em>{{ link.conference }}</em>
       </div>
@@ -35,11 +40,6 @@
       {% endif %}
       {% if link.notes %} 
       <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
-      {% endif %}
-      {% if link.github %}
-        <a href="{{ link.github }}/stargazers" target="_blank">
-          <img src="https://img.shields.io/github/stars/{{ link.github | split: 'https://github.com/' | last | split: '/' | first }}/{{ link.github | split: 'https://github.com/' | last | split: '/' | last }}.svg" alt="GitHub stars">
-        </a>
       {% endif %}
       {% if link.others %} 
       {{ link.others }}
