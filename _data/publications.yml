@@ -6,6 +6,7 @@ main:
     page: https://lift3d-web.github.io/
     code: https://github.com/PKU-HMI-Lab/LIFT3D.git
     image: ./assets/img/lift3d_teaser.png
+    github: "https://github.com/PKU-HMI-Lab/LIFT3D.git"
 
 
   - title: "DesignEdit: Unify Spatial-Aware Image Editing via Training-free Inpainting with a Multi-Layered Latent Diffusion Framework"

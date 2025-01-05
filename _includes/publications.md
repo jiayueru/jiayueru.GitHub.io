@@ -24,12 +24,6 @@
       {% if link.pdf %} 
       <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       {% endif %}
-            <!-- Add dynamic GitHub Star badge for each project -->
-            {% if link.github %}
-              <a href="{{ link.github }}/stargazers" target="_blank">
-                <img src="https://img.shields.io/github/stars/{{ link.github | split: '/' | last }}?style=social" alt="GitHub stars">
-              </a>
-            {% endif %}
       {% if link.code %} 
       <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
       {% endif %}
@@ -41,6 +35,11 @@
       {% endif %}
       {% if link.notes %} 
       <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
+      {% endif %}
+      {% if link.github %}
+        <a href="{{ link.github }}/stargazers" target="_blank">
+          <img src="https://img.shields.io/github/stars/{{ link.github | split: 'https://github.com/' | last | split: '/' | first }}/{{ link.github | split: 'https://github.com/' | last | split: '/' | last }}.svg" alt="GitHub stars">
+        </a>
       {% endif %}
       {% if link.others %} 
       {{ link.others }}
