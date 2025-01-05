@@ -1,22 +1,18 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+  - title: "Lift3D Foundation Policy: Lifting 2D Large-Scale Pretrained Models for Robust 3D Robotic Manipulation"
+    authors: Yueru Jia*, Jiaming Liu*, Sixiang Chen*, Chenyang Gu, Zhilue Wang, Longzan Luo, Lily Lee, Pengwei Wang, Renrui Zhang, Zhongyuan Wang, Shanghang Zhang
+    paper: https://arxiv.org/abs/2411.18623
+    page: https://lift3d-web.github.io/
+    code: https://github.com/PKU-HMI-Lab/LIFT3D.git
+    image: ./assets/img/lift3d_teaser.png
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+
+  - title: "DesignEdit: Unify Spatial-Aware Image Editing via Training-free Inpainting with a Multi-Layered Latent Diffusion Framework"
+    authors: Yueru Jia, Aosong Cheng, Yuhui Yuan, Chuke Wang, Ji Li, Huizhu Jia, Shanghang Zhang
+    conference_short: AAAI
+    conference: Proceedings of the AAAI Conference on Artificial Intelligence (AAAI|CCF-A), 2025.
+    paper: https://arxiv.org/abs/2403.14487
+    code: https://github.com/design-edit/DesignEdit
+    page: https://design-edit.github.io/
+    image: ./assets/img/design_edit_teaser.png
