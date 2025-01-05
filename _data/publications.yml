@@ -1,7 +1,7 @@
 main:
 
   - title: "Lift3D Foundation Policy: Lifting 2D Large-Scale Pretrained Models for Robust 3D Robotic Manipulation"
-    authors: Yueru Jia*, Jiaming Liu*, Sixiang Chen*, Chenyang Gu, Zhilue Wang, Longzan Luo, Lily Lee, Pengwei Wang, Renrui Zhang, Zhongyuan Wang, Shanghang Zhang
+    authors: <strong>Yueru Jia*</strong>, Jiaming Liu*, Sixiang Chen*, Chenyang Gu, Zhilue Wang, Longzan Luo, Lily Lee, Pengwei Wang, Renrui Zhang, Zhongyuan Wang, Shanghang Zhang
     paper: https://arxiv.org/abs/2411.18623
     page: https://lift3d-web.github.io/
     code: https://github.com/PKU-HMI-Lab/LIFT3D.git
@@ -9,7 +9,7 @@ main:
 
 
   - title: "DesignEdit: Unify Spatial-Aware Image Editing via Training-free Inpainting with a Multi-Layered Latent Diffusion Framework"
-    authors: Yueru Jia, Aosong Cheng, Yuhui Yuan, Chuke Wang, Ji Li, Huizhu Jia, Shanghang Zhang
+    authors: <strong>Yueru Jia</strong>, Aosong Cheng, Yuhui Yuan, Chuke Wang, Ji Li, Huizhu Jia, Shanghang Zhang
     conference_short: AAAI
     conference: Proceedings of the AAAI Conference on Artificial Intelligence (AAAI|CCF-A), 2025.
     paper: https://arxiv.org/abs/2403.14487
