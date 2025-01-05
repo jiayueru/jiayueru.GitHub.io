@@ -14,8 +14,12 @@ I am a first-year Master's student at the School of Computer Science, Peking Uni
   
 ## News
 
-- **[Dec. 2024]** Our paper DesignEdit is accepted to AAAI 2025.
+- **[Dec. 2024]** Our paper 🌿DesignEdit🌿 is accepted to AAAI 2025 🎉🎉.
 
 {% include_relative _includes/publications.md %}
+
+## Passions
+
+In my free time, I enjoy exploring new activities, including photography 📷, playing badminton 🏸, and the piano 🎹. I hope that one day, my robotic friends can join in the fun too! 🤖✨
 
 <!-- {% include_relative _includes/services.md %} -->
