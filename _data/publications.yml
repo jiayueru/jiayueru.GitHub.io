@@ -9,7 +9,7 @@ main:
 
 
   - title: "DesignEdit: Unify Spatial-Aware Image Editing via Training-free Inpainting with a Multi-Layered Latent Diffusion Framework"
-    authors: <strong>Yueru Jia</strong>, Aosong Cheng, Yuhui Yuan, Chuke Wang, Ji Li, Huizhu Jia, Shanghang Zhang
+    authors: <strong>Yueru Jia</strong>, Aosong Cheng, Yuhui Yuan, Chuke Wang, Ji Li, Huizhu Jia, Shanghang Zhang ![GitHub stars](https://img.shields.io/github/stars/design-edit/DesignEdit?style=social)
     conference_short: AAAI
     conference: Proceedings of the AAAI Conference on Artificial Intelligence (AAAI|CCF-A), 2025.
     pdf: https://arxiv.org/abs/2403.14487
